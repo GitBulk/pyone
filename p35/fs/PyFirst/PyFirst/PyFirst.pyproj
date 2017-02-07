@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>fbcf335f-90e4-4fab-81be-f1ea9ff028ec</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PyFirst.py</StartupFile>
+    <StartupFile>structure.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="guess.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PyFirst.py" />
+    <Compile Include="structure.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="text.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
